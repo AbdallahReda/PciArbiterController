@@ -1,0 +1,62 @@
+$date
+	Mon Dec 12 16:21:17 2016
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module TB $end
+$var wire 1 ! OUT $end
+$var reg 1 " A $end
+$var reg 1 # B $end
+$var reg 1 $ SEL $end
+$scope module a $end
+$var wire 1 " A $end
+$var wire 1 # B $end
+$var wire 1 $ SEL $end
+$var wire 1 % x2 $end
+$var wire 1 & x1 $end
+$var wire 1 ! OUT $end
+$var wire 1 ' NOT_SEL $end
+$scope module g1 $end
+$var wire 1 " A $end
+$var wire 1 $ B $end
+$var reg 1 & OUT $end
+$upscope $end
+$scope module g2 $end
+$var wire 1 # A $end
+$var wire 1 ' B $end
+$var reg 1 % OUT $end
+$upscope $end
+$scope module g3 $end
+$var wire 1 $ IN $end
+$var reg 1 ' OUT $end
+$upscope $end
+$scope module g4 $end
+$var wire 1 & A $end
+$var wire 1 % B $end
+$var reg 1 ! OUT $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+1'
+0&
+1%
+0$
+1#
+0"
+1!
+$end
+#5
+0'
+0%
+1&
+1$
+0#
+1"
+#10
