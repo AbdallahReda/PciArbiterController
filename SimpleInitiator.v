@@ -1,4 +1,4 @@
-module SimpleInitiator (start,clk,REQ,GNT,FRAME,IRDY,I_AM_OWNER , GLOBAL_IRDY,GLOBAL_FRAME);
+ module SimpleInitiator (start,clk,REQ,GNT,FRAME,IRDY,I_AM_OWNER , GLOBAL_IRDY,GLOBAL_FRAME);
 input wire clk,GNT,start;
 input wire GLOBAL_IRDY , GLOBAL_FRAME;
 output reg REQ = 1,FRAME = 1,I_AM_OWNER = 0,IRDY =1  ;

@@ -1,4 +1,4 @@
-module arbiterTB;
+ module arbiterTB;
 
 reg clk ;
 wire [7:0] GNT;

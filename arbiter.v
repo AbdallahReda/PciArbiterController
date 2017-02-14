@@ -1,4 +1,4 @@
-module arbiter (clk,REQ,GNT,FRAME,IRDY,TRDY);
+ module arbiter (clk,REQ,GNT,FRAME,IRDY,TRDY);
   input wire clk,FRAME,IRDY,TRDY;
   input wire [7:0] REQ;
   output reg [7:0] GNT;
